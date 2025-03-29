@@ -31,3 +31,4 @@ if build_hist:
 
     fig = px.histogram(car_data, x = 'price') # crear un histograma sobre el precio
     fig.show() # mostrar histograma
+    st.plotly_chart(fig, use_container_width=True) # Show an interactive chart
