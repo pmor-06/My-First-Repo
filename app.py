@@ -6,7 +6,7 @@ car_data = pd.read_csv('vehicles_us.csv') # Read csv data file
 
 st.header('Construir un histograma') # Create a header to explain the app
 
-hist_button = st.button() # Create the button
+hist_button = st.button('Construir un histograma') # Create the button
 
 if hist_button: # If click in the button
     st.write('Creación de un histograma para el conjunto de datos de anuncios de ventas de vehículos de coches en Estados Unidos')
